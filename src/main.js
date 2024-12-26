@@ -11,6 +11,16 @@ import gameScriptUtils from "./gameScriptUtils.js";
 import hoveringTooltip from "./hoveringTooltip.js";
 import { keybindFunctions, keybindHandler } from "./keybinds.js";
 import customLobby from './customLobby.js';
+import aiBot from "./aiBot.js";
+
+
+
+
+
+
+
+
+
 
 window.__fx = window.__fx || {};
 const __fx = window.__fx;
@@ -28,5 +38,7 @@ __fx.hoveringTooltip = hoveringTooltip;
 __fx.clanFilter = clanFilter;
 __fx.wins = winCounter;
 __fx.customLobby = customLobby;
+__fx.aiBot = aiBot;
 
 console.log('Successfully loaded FX Client');
+console.log("Successfully loaded FX Client with AI Bot");
